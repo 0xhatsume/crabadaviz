@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/crabadaviz/static/css/main.073c9b0a.css",
+    "main.js": "/crabadaviz/static/js/main.e43f3ae9.js",
+    "static/js/787.ebac768c.chunk.js": "/crabadaviz/static/js/787.ebac768c.chunk.js",
+    "static/media/logo.svg": "/crabadaviz/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/crabadaviz/index.html",
+    "main.073c9b0a.css.map": "/crabadaviz/static/css/main.073c9b0a.css.map",
+    "main.e43f3ae9.js.map": "/crabadaviz/static/js/main.e43f3ae9.js.map",
+    "787.ebac768c.chunk.js.map": "/crabadaviz/static/js/787.ebac768c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e43f3ae9.js"
+  ]
+}
