@@ -4,20 +4,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.0.3",
-    "@types/node": "^16.11.15",
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router": "^5.1.16",
+    "@web3-react/core": "^6.1.9",
+    "ethers": "^5.4.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "typescript": "^4.5.4",
-    "web-vitals": "^2.1.2"
+    "react-hot-toast": "^2.1.1",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.1",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -43,8 +48,14 @@
       "last 1 safari version"
     ]
   },
+  "resolutions": {
+    "bezier-js": "4.0.3"
+  },
   "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/rebass": "^4.0.9",
+    "@types/styled-components": "^5.1.14",
     "gh-pages": "^3.2.3",
-    "react-force-graph-2d": "^1.23.8"
+    "react-force-graph-2d": "^1.23.2"
   }
 }
